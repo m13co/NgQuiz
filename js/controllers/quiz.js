@@ -89,7 +89,7 @@
                 for(var x = 0; x < quizLength; x++){
                     if(DataService.quizQuestions[vm.activeQuestion].selected !== null){
                         numQuestionsAnswered++;
-                        if(numQuestionsAnswered >= quizLength){
+                       if(numQuestionsAnswered >= quizLength){
                             // final check to ensure all questions are actuall answered
                             for(var i = 0; i < quizLength; i++){
                                 /*
@@ -97,11 +97,12 @@
                                  * active question then return from this function
                                  * to ensure finalise flag is not set
                                  */
-                                if(DataService.quizQuestions[i].selected === null){
+                               if(DataService.quizQuestions[i].selected === null){
                                     setActiveQuestion(i);
                                     return;
                                 }
                             }
+
                             // set finalise flag and remove any existing warnings
                             vm.error = false;
                             vm.finalise = true;

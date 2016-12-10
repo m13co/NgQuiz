@@ -9,4 +9,11 @@ to Dos 15.12.:
 5. Style
     5.1 Hintergrund
     5.2 Icons -> Buttons beschriftung ersetzen
-    5.3
+    5.3 shortcut buttons zum testen -> gleich results
+
+
+Aufteilung
+
+Jan: 1, 2, 3 (erklärung)
+Chris: 3
+Marco: 5
