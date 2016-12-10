@@ -1,0 +1,12 @@
+to Dos 15.12.:
+
+1. Upload auf Server - neue Domain auf Server für E-Learning
+2. Git - Server synchronisieren
+!! 3. @ Christopher: Content erstellen -> elearning Inhalte für 10 Fragen (mit Bildern) + Info/Landing Page inhalte
+4. Mobile
+    4.1 Border
+    4.2 Bilderskalierung
+5. Style
+    5.1 Hintergrund
+    5.2 Icons -> Buttons beschriftung ersetzen
+    5.3
