@@ -15,6 +15,7 @@
             vm.setActiveQuestion = setActiveQuestion;
             vm.selectAnswer = selectAnswer;
             vm.finaliseAnswers = finaliseAnswers;
+            vm.goHome = goHome;
             vm.error = false;
             vm.finalise = false;
 
@@ -129,6 +130,21 @@
                 quizMetrics.markQuiz();
                 quizMetrics.changeState("quiz", false);
                 quizMetrics.changeState("results", true);
+            }
+
+            function goHome() {
+                quizMetrics.changeState("quiz", false);
+
+               // quizMetrics.numCorrect = 0;
+
+               /* for(var i= 0; i < DataService.quizQuestions.length; i++){
+                    var data = DataService.quizQuestions[i];
+                    data.selected = null;
+                    data.correct = null;
+
+                }*/
+
+
             }
         }
 
