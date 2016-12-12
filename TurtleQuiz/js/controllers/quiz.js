@@ -90,18 +90,22 @@
                     if(DataService.quizQuestions[vm.activeQuestion].selected !== null){
                         numQuestionsAnswered++;
                        if(numQuestionsAnswered >= quizLength){
+
+                           /*
+                           * auskommentiert für testen -> direkte weiterleitung zu results möglich
+                           * */
                             // final check to ensure all questions are actuall answered
-                            for(var i = 0; i < quizLength; i++){
+                          /*  for(var i = 0; i < quizLength; i++){
                                 /*
                                  * if find a question that is not answered, set it to
                                  * active question then return from this function
                                  * to ensure finalise flag is not set
                                  */
-                               if(DataService.quizQuestions[i].selected === null){
+                            /*   if(DataService.quizQuestions[i].selected === null){
                                     setActiveQuestion(i);
                                     return;
-                                }
-                            }
+                                }*/
+                          /*  } */
 
                             // set finalise flag and remove any existing warnings
                             vm.error = false;
