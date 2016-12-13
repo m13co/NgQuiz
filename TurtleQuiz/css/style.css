@@ -1,8 +1,4 @@
 
-body{
-    height: 100%;
-
-}
 .background{
 
    background-color: dimgrey;
@@ -10,11 +6,21 @@ body{
 
 }
 
+.btn-down{
+
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    margin-right: 2.5%;
+}
+.questionCol{
+    padding: 0% 2.5%;
+}
+
 .container{
     margin-top: 1%;
     margin-bottom: 1%;
     background-color: lightblue;
-    height: 100%;
+
     border-radius: 25px;
 }
 
