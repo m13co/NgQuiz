@@ -225,6 +225,7 @@
         var turtlesData = [
             {
                 type: "Effektivität von Lernformen",
+                kapitel:"3-6",
                 image_url: "https://maleksy.files.wordpress.com/2013/05/577929_418751664881907_1139614800_n.jpg?w=390&h=293",
 
                 description: "Verschiedene Lernformen besitzen unterschiedliche Retentionsraten (wieviel % des Lernstoffes im Gedächtnis gespeichert wird). Die traditionellen Lernformen (Vorlesungen, Lesen, Audio-Visual, Demonstration) besitzen eine deutlich niedrigere Retentionsrate als die aktiven Formen (Gruppendiskussion, „Practice by Doing“, Direkte Anwendung/andere lehren). Obige Abbildung visualisiert die Lernformen und zeigt die durchschnittliche Retentionsrate an."
