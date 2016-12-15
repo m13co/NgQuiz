@@ -224,7 +224,7 @@
 
         var turtlesData = [
             {
-                type: "Effektivität von Lernformen",
+                type: "Effektivität \n von Lernformen",
                 image_url: "https://maleksy.files.wordpress.com/2013/05/577929_418751664881907_1139614800_n.jpg?w=390&h=293",
 
                 description: "Verschiedene Lernformen besitzen unterschiedliche Retentionsraten (wieviel % des Lernstoffes im Gedächtnis gespeichert wird). Die traditionellen Lernformen (Vorlesungen, Lesen, Audio-Visual, Demonstration) besitzen eine deutlich niedrigere Retentionsrate als die aktiven Formen (Gruppendiskussion, „Practice by Doing“, Direkte Anwendung/andere lehren). Obige Abbildung visualisiert die Lernformen und zeigt die durchschnittliche Retentionsrate an."
@@ -255,7 +255,7 @@
             {
                 type: "Selbstreguliertes Lernen",
 
-                description: "Für individuelles Lernen (auch E-Learning) hochrelevant----Betonung der aktiven Rolle des Lernenden: Lernprozess planen, Ziele setzen, Vorwissen aktivieren, Lernressourcen suchen, selbstständig bearbeiten, Lernfortschritt überwachen, an sich verändernde Anforderungen des Lernmaterials anpassen, Lernergebnis bewerte---Lernstrategien: Kognitive Strategien: Wiederholungstrategien, Organisationsstrategien, Elaborationsstrategien -- Metakognitive Strategien: Planen, Überwachen, Bewerten --- -	Motivations- und Emotionsstrategien ---- Strategien zum kooperativen Lernen: Gestaltung sozialer Lernsituationen --- Ressourcenorientierte Strategien: Zeitmanagement, Gestaltung der Lernumgebung, Steuerung der Anstrengungsbereitschaft, Fokussierung der Aufmerksamkeit"
+                description: "Für individuelles Lernen (auch E-Learning) hochrelevant Betonung der aktiven Rolle des Lernenden: Lernprozess planen, Ziele setzen, Vorwissen aktivieren, Lernressourcen suchen, selbstständig bearbeiten, Lernfortschritt überwachen, an sich verändernde Anforderungen des Lernmaterials anpassen, Lernergebnis bewerte---Lernstrategien: Kognitive Strategien: Wiederholungstrategien, Organisationsstrategien, Elaborationsstrategien -- Metakognitive Strategien: Planen, Überwachen, Bewerten --- -	Motivations- und Emotionsstrategien ---- Strategien zum kooperativen Lernen: Gestaltung sozialer Lernsituationen --- Ressourcenorientierte Strategien: Zeitmanagement, Gestaltung der Lernumgebung, Steuerung der Anstrengungsbereitschaft, Fokussierung der Aufmerksamkeit"
             },
             {
                 type: "Designentscheidungen: DO-ID-Modell",
