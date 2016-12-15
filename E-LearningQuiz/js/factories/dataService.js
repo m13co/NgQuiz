@@ -17,7 +17,7 @@
     }
 
 
-    var correctAnswers = [0, 3, 0, 0, 1, 2, 1, 2, 0, 3];
+    var correctAnswers = [0, 3, 0, 0, 1, 2, 1, 2, 0, 2];
 
     var quizQuestions  = [
             {
