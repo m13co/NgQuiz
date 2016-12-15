@@ -17,24 +17,24 @@
     }
 
 
-    var correctAnswers = [1, 2, 3, 0, 2, 0, 3, 2, 0, 3];
+    var correctAnswers = [0, 3, 0, 0, 1, 2, 1, 2, 0, 3];
 
     var quizQuestions  = [
             {
                 type: "text",
-                text: "How much can a loggerhead weigh?",
+                text: "Welche Lernform ist am effektivsten (Lernform mit der höchsten durschnttlichen Retentionsrate)?",
                 possibilities: [
                     {
-                        answer: "Up to 20kg"
+                        answer: "Andere lehren."
                     },
                     {
-                        answer: "Up to 115kg"
+                        answer: "Gruppendiskussion."
                     },
                     {
-                        answer: "Up to 220kg"
+                        answer: "Vorlesung."
                     },
                     {
-                        answer: "Up to 500kg"
+                        answer: "Audio-Visuell."
                     }
                 ],
                 selected: null,
@@ -42,19 +42,39 @@
             },
             {
                 type: "text",
-                text: "What is the typical lifespan of a Green Sea Turtle?",
+                text: "Welches Instruktionsmodell ist aus der 1. Generation?",
                 possibilities: [
                     {
-                        answer: "150 years"
+                        answer: "Cognitive Apprenticeship"
                     },
                     {
-                        answer: "10 years"
+                        answer: "Anchored Instruction"
                     },
                     {
-                        answer: "80 years"
+                        answer: "Goal based Scenarios"
                     },
                     {
-                        answer: "40 years"
+                        answer: "Direct Instruction"
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                text: "Was beschreibt die Instrinsic Cogntive Load?",
+                possibilities: [
+                    {
+                        answer: "Ergibt sich aus der Lernaufgabe."
+                    },
+                    {
+                        answer: "Ergibt sich aus der Gestaltung des Lernmaterials."
+                    },
+                    {
+                        answer: "Freie kognitive Ressourcen, u.a. für Schemakonstruktion"
+                    },
+                    {
+                        answer: "Belegte kognitive Ressourcen, u.a. für Schemadekonstruktion."
                     }
                 ],
                 selected: null,
@@ -62,39 +82,19 @@
             },
             {
                 type: "image",
-                text: "Which of these is the Alligator Snapping Turtle?",
+                text: "Welche der folgenden Abbildungen ist in Bezug auf den Lernerfolg am besten geeignet. Bitte beachten Sie dabei den Split Attention Effect",
                 possibilities: [
                     {
-                        answer: "https://c1.staticflickr.com/3/2182/2399413165_bcc8031cac_z.jpg?zz=1"
+                        answer: "https://s29.postimg.org/6fckmkt8n/Bild1.png"
                     },
                     {
-                        answer: "http://images.nationalgeographic.com/wpf/media-live/photos/000/006/cache/ridley-sea-turtle_688_600x450.jpg"
+                        answer: "https://s29.postimg.org/6qu0zc9on/Bild1_Copy.png"
                     },
                     {
-                        answer: "https://static-secure.guim.co.uk/sys-images/Guardian/Pix/pictures/2011/8/13/1313246505515/Leatherback-turtle-007.jpg"
+                        answer: "https://s29.postimg.org/ypjlcglxj/Bild1_Copy_3.png"
                     },
                     {
-                        answer: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Alligator_snapping_turtle_-_Geierschildkr%C3%B6te_-_Alligatorschildkr%C3%B6te_-_Macrochelys_temminckii_01.jpg"
-                    }
-                ],
-                selected: null,
-                correct: null
-            },
-            {
-                type: "image",
-                text: "Which of these is the Green Turtle?",
-                possibilities: [
-                    {
-                        answer: "http://www.what-do-turtles-eat.com/wp-content/uploads/2014/10/Sea-Turtles-Habitat.jpg"
-                    },
-                    {
-                        answer: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kemp's_Ridley_sea_turtle_nesting.JPG"
-                    },
-                    {
-                        answer: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Alligator_snapping_turtle_-_Geierschildkr%C3%B6te_-_Alligatorschildkr%C3%B6te_-_Macrochelys_temminckii_01.jpg"
-                    },
-                    {
-                        answer: "http://assets.worldwildlife.org/photos/163/images/carousel_small/SCR_290360hawskbill-why-matter-LG.jpg?1345565532"
+                        answer: "https://s29.postimg.org/iq0xswpvr/Bild1_Copy_2.png"
                     }
                 ],
                 selected: null,
@@ -102,19 +102,19 @@
             },
             {
                 type: "text",
-                text: "Where does the Kemp's Ridley Sea Turtle live?'",
+                text: "Welche kognitive Belastung (cognitive load) lässt sich bspw. durch Worked Examples, Modality Effect, Redundancy Effekt und Expertise Reversal Effekt verringern?",
                 possibilities: [
                     {
-                        answer: "Tropical waters all around the world"
+                        answer: "Instrinsic Cognitive Load"
                     },
                     {
-                        answer: "Eastern Australia"
+                        answer: "Extraneous Cognitive Load"
                     },
                     {
-                        answer: "Coastal North Atlantic"
+                        answer: "Germane Cognitive Load"
                     },
                     {
-                        answer: "South pacific islands"
+                        answer: "Daenarys Cognitive Load"
                     }
                 ],
                 selected: null,
@@ -122,19 +122,19 @@
             },
             {
                 type: "text",
-                text: "What is the most common turtle in US waters?",
+                text: "Selbstreguliertes Lernen ist auch für E-Learning hochrelevant, da es die aktive Rolle des Lerndenden betont. Welche dieser Strategien gehört nicht zu den Kongitiven Strategien?",
                 possibilities: [
                     {
-                        answer: "Loggerhead turtle"
+                        answer: "Wiederholungsstrategien"
                     },
                     {
-                        answer: "Leatherback turtle"
+                        answer: "Organisationsstrategien"
                     },
                     {
-                        answer: "Hawksbill Turtle"
+                        answer: "Emotionsstrategien"
                     },
                     {
-                        answer: "Alligator Snapping Turtle"
+                        answer: "Elaborationsstrategien"
                     }
                 ],
                 selected: null,
@@ -142,39 +142,19 @@
             },
             {
                 type: "text",
-                text: "What is the largest sea turtle on earth?",
+                text: "Welche Lernform besitzt die geringste durschnittliche Retentionsrate?",
                 possibilities: [
                     {
-                        answer: "Eastern Snake Necked Turtle"
+                        answer: "Practice by doing."
                     },
                     {
-                        answer: "Olive Ridley Sea Turtle"
+                        answer: "Vorlesung."
                     },
                     {
-                        answer: "Kemp's Ridley Sea Turtle'"
+                        answer: "Gruppendiskussion."
                     },
                     {
-                        answer: "Leatherback"
-                    }
-                ],
-                selected: null,
-                correct: null
-            },
-            {
-                type: "image",
-                text: "Which of these is the Olive Ridley Turtle?",
-                possibilities: [
-                    {
-                        answer: "http://i.telegraph.co.uk/multimedia/archive/02651/loggerheadTurtle_2651448b.jpg"
-                    },
-                    {
-                        answer: "http://assets.worldwildlife.org/photos/163/images/carousel_small/SCR_290360hawskbill-why-matter-LG.jpg?1345565532"
-                    },
-                    {
-                        answer: "http://images.nationalgeographic.com/wpf/media-live/photos/000/006/cache/ridley-sea-turtle_688_600x450.jpg"
-                    },
-                    {
-                        answer: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kemp's_Ridley_sea_turtle_nesting.JPG"
+                        answer: "Lesen."
                     }
                 ],
                 selected: null,
@@ -182,19 +162,19 @@
             },
             {
                 type: "text",
-                text: "How Heavy can a leatherback turtle be?",
+                text: "Welche Rolle besitzt der Lehrende beim Konstruktivismus? ",
                 possibilities: [
                     {
-                        answer: "900kg"
+                        answer: "Lehrer"
                     },
                     {
-                        answer: "40kg"
+                        answer: "Tutor"
                     },
                     {
-                        answer: "110kg"
+                        answer: "Coach"
                     },
                     {
-                        answer: "300kg"
+                        answer: "Mentor"
                     }
                 ],
                 selected: null,
@@ -202,19 +182,39 @@
             },
             {
                 type: "text",
-                text: "Which of these turtles are herbivores?",
+                text: "Bei dem Decision Oriented Instructional Design (DO-ID) Model, muss welcher Teilschritt vor der Formatentscheidung                        durchgeführt werden?",
                 possibilities: [
                     {
-                        answer: "Loggerhead Turtle"
+                        answer: "Analysen"
                     },
                     {
-                        answer: "Hawksbill Turtle"
+                        answer: "Content-Strukturierung"
                     },
                     {
-                        answer: "Leatherback Turtle"
+                        answer: "Motivationsdesign"
                     },
                     {
-                        answer: "Green Turtle"
+                        answer: "Interaktionsdesign"
+                    }
+                ],
+                selected: null,
+                correct: null
+            },
+            {
+                type: "text",
+                text: "Welche E-Learning Formate gehören nicht zu eimem hybriden Format?",
+                possibilities: [
+                    {
+                        answer: "Blended Learning Format"
+                    },
+                    {
+                        answer: "Multimedial angeleitetes Selbstlernen."
+                    },
+                    {
+                        answer: "E-Kompendium"
+                    },
+                    {
+                        answer: "Electronic Performance Support System"
                     }
                 ],
                 selected: null,
@@ -257,19 +257,19 @@
             {
                 type: "Selbstreguliertes Lernen",
                 image_url:"http://www.rhinodidactics.de/Bilder/schattenbild.png",
-                description: "Für individuelles Lernen (auch E-Learning) hochrelevant----Betonung der aktiven Rolle des Lernenden: Lernprozess planen, Ziele setzen, Vorwissen aktivieren, Lernressourcen suchen, selbstständig bearbeiten, Lernfortschritt überwachen, an sich verändernde Anforderungen des Lernmaterials anpassen, Lernergebnis bewerte---Lernstrategien: Kognitive Strategien: Wiederholungstrategien, Organisationsstrategien, Elaborationsstrategien -- Metakognitive Strategien: Planen, Überwachen, Bewerten --- -	Motivations- und Emotionsstrategien ---- Strategien zum kooperativen Lernen: Gestaltung sozialer Lernsituationen --- Ressourcenorientierte Strategien: Zeitmanagement, Gestaltung der Lernumgebung, Steuerung der Anstrengungsbereitschaft, Fokussierung der Aufmerksamkeit"
+                description: "Für individuelles Lernen (auch E-Learning) hochrelevant. Betonung der aktiven Rolle des Lernenden: Lernprozess planen, Ziele setzen, Vorwissen aktivieren, Lernressourcen suchen, selbstständig bearbeiten, Lernfortschritt überwachen, an sich verändernde Anforderungen des Lernmaterials anpassen, Lernergebnis bewerte. Lernstrategien: Kognitive Strategien: Wiederholungstrategien, Organisationsstrategien, Elaborationsstrategien. Metakognitive Strategien: Planen, Überwachen, Bewerten --- -	Motivations- und Emotionsstrategien. Strategien zum kooperativen Lernen: Gestaltung sozialer Lernsituationen --- Ressourcenorientierte Strategien: Zeitmanagement, Gestaltung der Lernumgebung, Steuerung der Anstrengungsbereitschaft, Fokussierung der Aufmerksamkeit"
             },
             {
                 type: "Designentscheidungen: DO-ID-Modell",
                 image_url: "https://s29.postimg.org/h2nvpifef/Content_6.jpg",
 
-                description: "Systematische Konzeption ist immer hierarchischer Abfolge von Entscheidungen: Strategische Entscheidungen,Entscheidungen auf jeweils niedrigeren Ebenen"
+                description: "Systematische Konzeption ist immer hierarchischer Abfolge von Entscheidungen: Strategische Entscheidungen, Entscheidungen auf jeweils niedrigeren Ebenen."
             },
             {
                 type: "E-Learning Formate",
                 image_url: "http://framedia-inc.com/images/why-elearning-article.jpg",
 
-                description: "Direkte Instruktion (E-Kompendium, E-Lecture), Problembasiertes Lernen, Fallbasiertes Lernen, Aufgabengeleitete Simulation (Betriebswirtschaftliche Planspiele, Flug- und Fahrsimulationen, Simulationen technischer Anlagen, usww.), Produkttraining, Hybride Formate (Multimedial angeleitetes Selbstlernen (MASL), Blended Learning-Format (CreaTeach-Fortmat), Electronic Performance Support System (Infos & Lerneinheiten on-demand))"
+                description: "Direkte Instruktion (E-Kompendium, E-Lecture), Problembasiertes Lernen, Fallbasiertes Lernen, Aufgabengeleitete Simulation (Betriebswirtschaftliche Planspiele, Flug- und Fahrsimulationen, Simulationen technischer Anlagen, usww.), Produkttraining, Hybride Formate (Multimedial angeleitetes Selbstlernen (MASL), Blended Learning-Format (CreaTeach-Fortmat), Electronic Performance Support System (Infos & Lerneinheiten on-demand))."
             }
         ];
 
