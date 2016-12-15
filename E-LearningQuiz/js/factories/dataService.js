@@ -224,7 +224,7 @@
 
         var turtlesData = [
             {
-                type: "Effektivität \n von Lernformen",
+                type: "Effektivität von Lernformen",
                 image_url: "https://maleksy.files.wordpress.com/2013/05/577929_418751664881907_1139614800_n.jpg?w=390&h=293",
 
                 description: "Verschiedene Lernformen besitzen unterschiedliche Retentionsraten (wieviel % des Lernstoffes im Gedächtnis gespeichert wird). Die traditionellen Lernformen (Vorlesungen, Lesen, Audio-Visual, Demonstration) besitzen eine deutlich niedrigere Retentionsrate als die aktiven Formen (Gruppendiskussion, „Practice by Doing“, Direkte Anwendung/andere lehren). Obige Abbildung visualisiert die Lernformen und zeigt die durchschnittliche Retentionsrate an."
@@ -237,25 +237,26 @@
             },
             {
                 type: "Konzeption von E-Learning: Wissenschaftliche Theorien, Modell und Befunde",
-                image_url: "",
+                image_url: "http://www.lto.de/fileadmin/_migrated/tx_ltoartikel/wissenschaftlich_arbeiten_535.jpg",
 
                 description: "Das Instruktionsdesign ist eine wichtige Teildisziplin der pädagogischen Psychologie. Ein Instruktionsmodell der 1. Generation ist die direkte Instruktion. Bei der weiterentwickelten 2. Generation liegt der Fokus auf selbständiges Lernen und auf der aktiven Rolle des Lerners. Die wichtigsten Instruktionsdesignmodelle der 2. Generation: Instructional-Transaction-Theorie, Anchored instructionCognitive Apprenticeship and Goal based Scenarios und " +
-                "4C/ID-Modell für Training komplexer Fähigkeiten"},
+                "4C/ID-Modell für Training komplexer Fähigkeiten."
+            },
             {
                 type: "Lernen mit Medien",
-
-                description: "Kernaspekte menschlicher Informationsverarbeitung:Menschliches Gedächtnis weist multiple Gedächtnissysteme auf: 1. Sensorisches 2. Arbeits- oder Kurzzeit- und 3. Langzeitgedächtnis ----- Getrennte Verarbeitung nach visuellen und auditiven Informationen werden aus Lernmaterial getrennt nach visueller & auditiver Information ins sensorische Gedächtnis übernommen und ausgewählte Informationen ins Arbeitsgedächtnis transferiert. Diese werden dort organisiert und zu einem mentalen Modell unter Zuhilfenahme von Vorwissen aus dem Langzeitgedächtnis integriert. Dabei werden mehrere Repräsentationen des Lerninhaltes erstellt-------------Die begrenzte Arbeitsgedächtniskapazität (7 +/- Einheiten) muss zwischen drei Quellen mentaler Belastung (Cognitive Load) aufgeteilt werden: " +
-                "Instrinsic Cogntive Load: ergibt sich aus Lernaufgabe, Extraneous Cognitve Load: ergibt sich aus der Gestaltung des Lernmaterials und Germane Cognitive Load: freie kognitive Ressourchen; u.a. für Schemakonstruktion"
+                image_url:"http://www.mkpublishing.de/sites/default/files/onlinemedien.gif",
+                description: "Kernaspekte menschlicher Informationsverarbeitung: Menschliches Gedächtnis weist multiple Gedächtnissysteme auf: 1. Sensorisches 2. Arbeits- oder Kurzzeit- und 3. Langzeitgedächtnis.Getrennte Verarbeitung nach visuellen und auditiven Informationen werden aus Lernmaterial getrennt nach visueller & auditiver Information ins sensorische Gedächtnis übernommen und ausgewählte Informationen ins Arbeitsgedächtnis transferiert. Diese werden dort organisiert und zu einem mentalen Modell unter Zuhilfenahme von Vorwissen aus dem Langzeitgedächtnis integriert. Dabei werden mehrere Repräsentationen des Lerninhaltes erstellt. Die begrenzte Arbeitsgedächtniskapazität (7 +/- Einheiten) muss zwischen drei Quellen mentaler Belastung (Cognitive Load) aufgeteilt werden: " +
+                "Instrinsic Cogntive Load: ergibt sich aus Lernaufgabe, Extraneous Cognitve Load: ergibt sich aus der Gestaltung des Lernmaterials und Germane Cognitive Load: freie kognitive Ressourchen; u.a. für Schemakonstruktion."
             },
             {
                 type: "Didaktische Gestaltungsmöglichkeiten",
-
-                description: "Zur Verringerung der Extraneous Cognitive Load (und damit Überlastung des Arbeitsgedächtnisses): ----Worked Examples: Beim Lösen gestellter Aufgaben werden ausgearbeitete Lösungsbeispiele (worked examples) angeboten. Diese unterstützen den Lernenden effektiver als wenn er selbstständig nach Problemlösung sucht------	Split Attention Effect: Bei visueller Präsentation von Lernmaterial zusammengehörige Inhalte (z.B. Erläuterungen) nach beieinander platzieren----	Modality Effect: Visuellen und auditiven Kanal ergänzend ansprechen.-----	Redundancy Effect: Bei Präsentation von Text und Grafik den Text nicht gleichzeitig sowohl in gesprochener als auch geschriebener Form anbieten-----Expertise Reversal Effekt: Bei Fortgeschrittenen können für Anfänger sinnvolle Erläuterungen stören"
+                image_url:"https://www.ethos3.com/wp-content/uploads/2015/01/psychology-of-presentations1.jpg",
+                description: "Zur Verringerung der Extraneous Cognitive Load (und damit Überlastung des Arbeitsgedächtnisses): Worked Examples: Beim Lösen gestellter Aufgaben werden ausgearbeitete Lösungsbeispiele (worked examples) angeboten. Diese unterstützen den Lernenden effektiver als wenn er selbstständig nach Problemlösung sucht. Split Attention Effect: Bei visueller Präsentation von Lernmaterial zusammengehörige Inhalte (z.B. Erläuterungen) nach beieinander platzieren. Modality Effect: Visuellen und auditiven Kanal ergänzend ansprechen.	Redundancy Effect: Bei Präsentation von Text und Grafik den Text nicht gleichzeitig sowohl in gesprochener als auch geschriebener Form anbieten. Expertise Reversal Effekt: Bei Fortgeschrittenen können für Anfänger sinnvolle Erläuterungen stören."
             },
             {
                 type: "Selbstreguliertes Lernen",
-
-                description: "Für individuelles Lernen (auch E-Learning) hochrelevant Betonung der aktiven Rolle des Lernenden: Lernprozess planen, Ziele setzen, Vorwissen aktivieren, Lernressourcen suchen, selbstständig bearbeiten, Lernfortschritt überwachen, an sich verändernde Anforderungen des Lernmaterials anpassen, Lernergebnis bewerte---Lernstrategien: Kognitive Strategien: Wiederholungstrategien, Organisationsstrategien, Elaborationsstrategien -- Metakognitive Strategien: Planen, Überwachen, Bewerten --- -	Motivations- und Emotionsstrategien ---- Strategien zum kooperativen Lernen: Gestaltung sozialer Lernsituationen --- Ressourcenorientierte Strategien: Zeitmanagement, Gestaltung der Lernumgebung, Steuerung der Anstrengungsbereitschaft, Fokussierung der Aufmerksamkeit"
+                image_url:"http://www.rhinodidactics.de/Bilder/schattenbild.png",
+                description: "Für individuelles Lernen (auch E-Learning) hochrelevant----Betonung der aktiven Rolle des Lernenden: Lernprozess planen, Ziele setzen, Vorwissen aktivieren, Lernressourcen suchen, selbstständig bearbeiten, Lernfortschritt überwachen, an sich verändernde Anforderungen des Lernmaterials anpassen, Lernergebnis bewerte---Lernstrategien: Kognitive Strategien: Wiederholungstrategien, Organisationsstrategien, Elaborationsstrategien -- Metakognitive Strategien: Planen, Überwachen, Bewerten --- -	Motivations- und Emotionsstrategien ---- Strategien zum kooperativen Lernen: Gestaltung sozialer Lernsituationen --- Ressourcenorientierte Strategien: Zeitmanagement, Gestaltung der Lernumgebung, Steuerung der Anstrengungsbereitschaft, Fokussierung der Aufmerksamkeit"
             },
             {
                 type: "Designentscheidungen: DO-ID-Modell",
@@ -264,13 +265,10 @@
                 description: "Systematische Konzeption ist immer hierarchischer Abfolge von Entscheidungen: Strategische Entscheidungen,Entscheidungen auf jeweils niedrigeren Ebenen"
             },
             {
-                type: "E-",
-                image_url: "https://c1.staticflickr.com/3/2182/2399413165_bcc8031cac_z.jpg?zz=1",
-                locations: "Eastern Australia",
-                size: "Up to 30cm",
-                lifespan: "25 years",
-                diet: "Carnivore",
-                description: "Snake-necked turtles, as the name suggests, have an unusually long neck. Their necks may be up to 60 percent of their carapace length. Their carapace is oval and flattened, usually dark-brown to black measuring up to 11 inches (27.5 cm) in length. Scutes are shed as the animals grow. The males have a longer, thicker tail than females and a concave plastron. They are excellent swimmers; they have large, webbed feet with sharp claws used to tear apart food."
+                type: "E-Learning Formate",
+                image_url: "http://framedia-inc.com/images/why-elearning-article.jpg",
+
+                description: "Direkte Instruktion (E-Kompendium, E-Lecture), Problembasiertes Lernen, Fallbasiertes Lernen, Aufgabengeleitete Simulation (Betriebswirtschaftliche Planspiele, Flug- und Fahrsimulationen, Simulationen technischer Anlagen, usww.), Produkttraining, Hybride Formate (Multimedial angeleitetes Selbstlernen (MASL), Blended Learning-Format (CreaTeach-Fortmat), Electronic Performance Support System (Infos & Lerneinheiten on-demand))"
             }
         ];
 
