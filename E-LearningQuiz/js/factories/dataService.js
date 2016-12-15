@@ -185,7 +185,7 @@
                 text: "Bei dem Decision Oriented Instructional Design (DO-ID) Model, muss welcher Teilschritt vor der Formatentscheidung                        durchgeführt werden?",
                 possibilities: [
                     {
-                        answer: "Analysen"
+                        answer: "Analyse"
                     },
                     {
                         answer: "Content-Strukturierung"
