@@ -232,7 +232,7 @@
             },
             {
                 type: "Lerntheorien im Vergleich",
-
+                kapitel: "7-14",
                 image_url: "https://s24.postimg.org/93ffno9gl/Content2.jpg",
                 description: "In der Lerntheorie wird zwischen fremdgesteuerten (Behaviorismus, Kognitivismus) und selbstgesteuerten Lernprozessen (Konstruktivismus, Konnektivismus) unterschieden. Die verschiedenen Theorien besitzen dabei unterschiedliche Rollen des Lehrenden. Das Zusammenspiel der Lerntheorien wird in obiger Übersicht visualisiert"
             },
